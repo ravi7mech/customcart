@@ -1,0 +1,28 @@
+add-delete-button {
+    ul {
+        font-size: 0;
+    }
+    li { 
+        display: inline-block;
+   
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    height: 26px;
+    }
+    
+    li:nth-child(1) {
+        background: #32db64;
+        width: 28px;
+    }
+    li:nth-child(2) {
+        background:#2ec95c;
+        width: 38px;
+    }
+    li:nth-child(3) {
+        background:#32db64;
+        width: 28px;
+    }
+    
+    
+}
