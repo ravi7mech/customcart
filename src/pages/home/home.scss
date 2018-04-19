@@ -1,0 +1,32 @@
+page-home {
+    .item-md .item-button {
+        padding: 3px 1.6em;
+        height: 25px;
+        font-size: 1.4rem;
+    }
+    .item-md .item-button {
+        padding: 3px 0.6em;
+        height: 25px;
+        font-size: 1.0rem;
+    }
+    .item-md [item-end] {
+        margin: 9px 8px 9px -9px;
+    }
+
+    .addbtnpad{
+        padding: 3px 1.5em !important;
+    }
+    .blwtenpad{
+        padding: 3px 0.9em !important;
+    }
+
+    .item-md {
+        padding-left: 0px; 
+    }
+    .item-md.item-block .item-inner {
+         padding-right: 0px; 
+    }
+    .label-md {
+        margin: 0px 0px 0px 0;
+    }
+}

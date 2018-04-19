@@ -1,0 +1,7 @@
+<button *ngIf="qty.qty !=0" ion-button color="secondary" outline item-end icon-left>
+  <ion-icon name="remove"></ion-icon>
+</button>
+<button ion-button color="secondary" outline item-end icon-left>{{qty.qty}}</button>
+<button *ngIf="qty.qty >=0" ion-button color="secondary" outline item-end icon-left>
+  <ion-icon name="add"></ion-icon>
+</button>
